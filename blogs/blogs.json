@@ -1,0 +1,13 @@
+{
+  "repo": "adaptigent",
+  "feeds": [
+    {
+      "source": "https://www.adaptigent.com/blog/",
+      "feed_url": "https://www.adaptigent.com/feed/",
+      "saved": 10,
+      "title": "Adaptigent"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:20:27Z"
+}
