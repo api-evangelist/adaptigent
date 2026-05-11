@@ -138,6 +138,23 @@ common:
         description: >-
           Generates SOAP web service endpoints from mainframe programs for
           compatibility with enterprise service-oriented architecture.
+  - type: Integrations
+    url: https://www.adaptigent.com/about/partners/
+integrations:
+  - name: Adaptigent
+  - name: Navigation Menu
+  - name: arrow
+  - name: finance + banking
+  - name: insurance
+  - name: transportation
+  - name: manufacturing
+  - name: government
+  - name: about adaptigent
+  - name: case studies
+  - name: partnership
+  - name: Adaptigent News
+  - name: culture
+  - name: contact adaptigent
 maintainers:
   - FN: Kin Lane
     X-twitter: apievangelist
