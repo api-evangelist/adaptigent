@@ -48,6 +48,8 @@ apis:
       - type: GettingStarted
         url: https://www.adaptigent.com/project/api-enabling-your-mainframe-with-adaptigent/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/adaptigent
   - type: Website
     url: https://www.adaptigent.com
   - type: Portal
