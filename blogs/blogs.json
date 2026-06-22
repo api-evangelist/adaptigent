@@ -2,20 +2,13 @@
   "repo": "adaptigent",
   "feeds": [
     {
-      "source": "https://www.adaptigent.com/feed/",
+      "source": "https://www.adaptigent.com/blog/",
       "feed_url": "https://www.adaptigent.com/feed/",
-      "title": "",
+      "title": "Adaptigent",
       "saved": 1,
       "method": "feed"
-    },
-    {
-      "source": "https://www.adaptigent.com/about/partners/",
-      "feed_url": "https://www.adaptigent.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "discovered"
     }
   ],
-  "post_count": 22,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 23,
+  "fetched": "2026-06-21T17:00:00Z"
 }
