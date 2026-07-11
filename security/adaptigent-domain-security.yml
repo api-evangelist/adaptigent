@@ -1,0 +1,16 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.adaptigent.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Aug 19 09:11:35 2026 GMT
+  hsts: false
+domains:
+- domain: adaptigent.com
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: reject
