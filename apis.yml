@@ -24,6 +24,14 @@ tags:
   - API Gateway
   - Legacy Systems
   - Enterprise
+  - No-Code
+  - Middleware
+tags_raw:
+  - Mainframe
+  - Integration
+  - API Gateway
+  - Legacy Systems
+  - Enterprise
   - No Code
   - Middleware
 description: >-
@@ -41,6 +49,12 @@ apis:
   - aid: adaptigent:adaptive-integration-fabric
     name: Adaptive Integration Fabric API
     tags:
+      - Mainframe
+      - Integration
+      - REST API
+      - SOAP
+      - No-Code
+    tags_raw:
       - Mainframe
       - Integration
       - REST API
