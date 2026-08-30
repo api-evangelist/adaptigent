@@ -1,11 +1,11 @@
-generated: '2026-07-11'
+generated: '2026-08-30'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.adaptigent.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Aug 19 09:11:35 2026 GMT
+  cert_expires: Oct 17 13:31:01 2026 GMT
   hsts: false
 domains:
 - domain: adaptigent.com

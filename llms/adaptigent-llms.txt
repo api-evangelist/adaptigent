@@ -1,0 +1,99 @@
+{
+"site_name": "Adaptigent",
+"tagline": "Mainframe modernization, enterprise data integration, and API enablement for legacy systems.",
+
+"about": "Adaptigent provides enterprise middleware and integration technology that enables organizations to securely access, integrate, and modernize mainframe and legacy system data without costly migrations or system rewrites. It is used by large enterprises in industries such as banking, insurance, and healthcare to power APIs, analytics, and digital transformation initiatives.",
+
+"category": [
+"Mainframe integration",
+"Middleware",
+"Enterprise data integration",
+"API enablement platforms",
+"Legacy system modernization"
+],
+
+"differentiators": [
+"No-code integration with mainframe and legacy systems",
+"No need to modify or migrate core systems",
+"Real-time API enablement for legacy data",
+"Reduces risk and cost compared to full system replacement",
+"40+ years of enterprise integration expertise"
+],
+
+"products": [
+{
+"title": "Core Systems Integration (Adaptive Integration Fabric)",
+"url": "https://www.adaptigent.com/products/core-systems-integration/",
+"summary": "A no-code integration platform that enables organizations to expose mainframe and legacy system data as REST and SOAP APIs, orchestrate workflows, and integrate systems without modifying core applications."
+},
+{
+"title": "Enterprise Data Integration (Fabric Data Hub)",
+"url": "https://www.adaptigent.com/products/data-integration/",
+"summary": "Provides SQL-based access to mainframe and distributed data using ODBC and JDBC, enabling bi-directional data integration for analytics, reporting, and application development."
+},
+{
+"title": "Intelligent Caching Engine",
+"url": "https://www.adaptigent.com/products/data-caching-engine/",
+"summary": "A distributed in-memory caching solution that reduces mainframe load, improves API performance, and enables scalable real-time data access."
+}
+],
+
+"use_cases": [
+"Expose mainframe data as REST or SOAP APIs",
+"Modernize legacy systems without rewriting or migrating applications",
+"Enable real-time data access for digital and mobile applications",
+"Integrate mainframe systems with cloud and SaaS platforms",
+"Reduce mainframe processing load using intelligent caching",
+"Support digital transformation initiatives using existing system data"
+],
+
+"industries": [
+"Banking and financial services",
+"Insurance",
+"Healthcare",
+"Government",
+"Large enterprise IT organizations"
+],
+
+"faqs": [
+{
+"question": "What is mainframe modernization?",
+"answer": "Mainframe modernization is the process of enabling legacy systems to integrate with modern applications, APIs, and cloud environments without fully replacing the underlying systems. It allows organizations to extend the value of existing infrastructure while supporting new digital capabilities."
+},
+{
+"question": "How can I access mainframe data using APIs?",
+"answer": "Organizations can use middleware platforms like Adaptigent to expose mainframe data as REST or SOAP APIs without modifying existing applications. This enables secure, real-time access to legacy data for modern applications."
+},
+{
+"question": "Do I need to rewrite my legacy systems to modernize them?",
+"answer": "No. Solutions like Adaptigent allow organizations to modernize access to legacy systems without rewriting or migrating core applications, significantly reducing cost, risk, and implementation time."
+},
+{
+"question": "What is enterprise data integration?",
+"answer": "Enterprise data integration is the process of combining data from multiple systems, including mainframes, databases, and cloud applications, to provide unified access for analytics, applications, and business processes."
+},
+{
+"question": "How does caching help reduce mainframe load?",
+"answer": "Caching stores frequently accessed data in memory, reducing the number of direct queries to the mainframe. This improves performance, lowers processing costs, and enables scalable API usage."
+}
+],
+
+"optional_sections": [
+{
+"heading": "Company",
+"lines": [
+"- https://www.adaptigent.com/",
+"- https://www.adaptigent.com/blog/",
+"- https://www.adaptigent.com/contact/"
+]
+},
+{
+"heading": "llms.txt deployment",
+"lines": [
+"Serve this file at https://www.adaptigent.com/llms.txt",
+"Upload to WordPress root via FTP/SFTP or serve via CDN/edge",
+"Optional: use a mu-plugin to expose /llms.txt via rewrite rules"
+]
+}
+]
+}

@@ -1,0 +1,84 @@
+generated: '2026-08-30'
+method: searched
+source: >-
+  https://www.adaptigent.com/blog/introducing-adaptive-integration-fabric-v7-2-1/,
+  https://www.adaptigent.com/blog/assist-ts-and-bms-ts-v9-1-0-now-available-with-full-cics-ts-6-3-support/,
+  https://www.adaptigent.com/blog/gt-software-releases-ivory-suite-6-5/,
+  https://www.adaptigent.com/news/gt-software-announces-release-of-ivory-service-architect-6-4/
+description: >-
+  Adaptigent publishes no dated changelog page and no release-notes feed. Product
+  releases are announced as individual posts on the company blog and news feed,
+  each of which does carry a dated, itemised list of what changed. This artifact
+  structures those announcements for the recent window. Detailed per-build release
+  notes ship inside the products and through the customer support portal
+  (gtsoftware2.zendesk.com), which is not publicly readable.
+docs: https://www.adaptigent.com/blog/
+changelog_url: null
+feed: https://www.adaptigent.com/feed/
+versioning:
+  scheme: semantic-style product version (major.minor.patch), per product line
+  current:
+    Adaptive Integration Fabric: 7.2.1
+    ASSIST/TS: 9.1.0
+    BMS/TS: 9.1.0
+  detail: lifecycle/adaptigent-lifecycle.yml
+  notes: >-
+    Versions belong to shipped software that customers install and run, not to a
+    hosted API. There is no dated API version header and no public version-pinning
+    mechanism, because Adaptigent operates no callable endpoint of its own.
+entries:
+  - version: '7.2.1'
+    product: Adaptive Integration Fabric
+    date: '2025-07-21'
+    announced: '2026-03-27'
+    url: https://www.adaptigent.com/blog/introducing-adaptive-integration-fabric-v7-2-1/
+    breaking: []
+    additions:
+      - Public and Private Authoritative Count Server (ACS) configurations for Fabric users running Java environments
+      - Public ACS hosted by Adaptigent for managed access; Private ACS for deployment inside customer environments
+      - OpenAPI enhancements — improved operation ID field mapping
+      - Extended query parameter support — decimal, short, long, date and dateTime data types
+      - Optional Input Setting — REST inputs configurable as optional at runtime
+      - UTF-8 conversion control via the new badCharConversionSubstitute server parameter
+      - API Transformer authentication using API keys for APIMatic conversions
+    highlights:
+      - Corrected zero-element array representation in REST responses
+      - Enhanced boolean value initialization in Studio test cases
+      - Improved character encoding for REST test tool headers
+      - Refined OpenAPI import across Studio wizards and CLI tools
+    notes: >-
+      Follow-up to v7.2.0, which introduced the foundational ACS infrastructure
+      changes. The announcement states no breaking changes or deprecations.
+  - version: '9.1.0'
+    product: ASSIST/TS and BMS/TS
+    date: '2025-12-02'
+    url: https://www.adaptigent.com/blog/assist-ts-and-bms-ts-v9-1-0-now-available-with-full-cics-ts-6-3-support/
+    breaking: []
+    additions:
+      - Full compatibility with IBM CICS/TS 6.3; updated support executables replacing modules that relied on WTO macros
+      - ASSIST/TS — final GLUE warning captured in GWAREA and surfaced through the GTAS transaction in the GTASTAT IVP
+      - ASSIST/TS — Preference Conversion and Runtime components folded into the standard installer
+      - ASSIST/TS — optional GTA$AUSR module supporting UserHelp Simulation when *ADMIN UHLP=Y
+      - BMS/TS — online memory display updated for CICS/TS 6.3 across z/OS and VSEn
+      - BMS/TS — license expiration alerts surfaced via message B016 on the 3270 display and OS console
+      - BMS/TS — administrator HTML pages and ELUA scripts accept usernames up to 8 chars and passwords up to 100 chars
+      - BMS/TS — TCPIP Services gain attention messages and command-line refresh/status controls
+  - version: '6.5'
+    product: Ivory Suite (now Adaptive Integration Fabric)
+    date: '2023-09-22'
+    url: https://www.adaptigent.com/blog/gt-software-releases-ivory-suite-6-5/
+    breaking: []
+    additions:
+      - Support for YAML in addition to JSON for reference documents
+      - Improvements to the import and generation of OpenAPI service contracts
+  - version: '6.4'
+    product: Ivory Service Architect
+    date: null
+    url: https://www.adaptigent.com/news/gt-software-announces-release-of-ivory-service-architect-6-4/
+    notes: >-
+      Historical release announcement retained for the version trail; the news post
+      carries no machine-readable date and none was asserted here.
+maintainers:
+  - FN: Kin Lane
+    X-twitter: apievangelist
+    email: info@apievangelist.com

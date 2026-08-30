@@ -27,7 +27,7 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/apis.yml
 name: Adaptigent
 created: '2025-03-01'
-modified: '2026-04-19'
+modified: '2026-08-30'
 specificationVersion: '0.23'
 tags:
   - Mainframe
@@ -102,6 +102,20 @@ common:
     url: https://www.adaptigent.com/blog/
   - type: Contact
     url: https://www.adaptigent.com/contact/
+  - type: TermsOfService
+    url: https://www.adaptigent.com/terms-of-use/
+  - type: PrivacyPolicy
+    url: https://www.adaptigent.com/privacy-policy/
+  - type: Support
+    url: https://gtsoftware2.zendesk.com/
+  - type: LLMsTxt
+    url: llms/adaptigent-llms.txt
+  - type: ChangeLog
+    url: changelog/adaptigent-changelog.yml
+  - type: Lifecycle
+    url: lifecycle/adaptigent-lifecycle.yml
+  - type: Conformance
+    url: conformance/adaptigent-conformance.yml
   - type: Features
     data:
       - name: No-Code API Development
@@ -201,3 +215,8 @@ maintainers:
   - FN: Kin Lane
     X-twitter: apievangelist
     email: info@apievangelist.com
+x-enrichment:
+  date: '2026-08-30'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

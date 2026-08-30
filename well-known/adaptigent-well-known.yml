@@ -1,0 +1,51 @@
+generated: '2026-08-30'
+method: probed
+source: >-
+  Live HTTP probes of the /.well-known/ discovery surface on every host named in
+  apis.yml. Adaptigent publishes no baseURL and no OpenAPI servers[] block — the
+  Adaptive Integration Fabric is customer-deployed software, so the only host
+  Adaptigent itself operates is the marketing site www.adaptigent.com (and the
+  apex adaptigent.com, which serves the same WordPress instance).
+description: >-
+  Every /.well-known/ path probed returned 404 from the WordPress 404 handler
+  (text/html error page, not a document). No security.txt, no OIDC or OAuth
+  discovery, no api-catalog, no ai-plugin manifest, and no A2A agent card at
+  either the canonical /.well-known/agent-card.json or the legacy
+  /.well-known/agent.json path. Recorded as a measured absence: no WellKnown,
+  SecurityTxt or AgentCard pointer is emitted in apis.yml because nothing is
+  served.
+hosts:
+  - host: https://www.adaptigent.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+      - path: /.well-known/agent.json
+        status: 404
+notes:
+  - >-
+    /llms.txt on the same host DOES return a real 200 text/plain document —
+    saved verbatim to llms/adaptigent-llms.txt and pointed at with type: LLMsTxt.
+  - >-
+    Contract discovery (STEP 0b) also missed on www.adaptigent.com/openapi.json
+    (404), /swagger.json (404), /api-docs (404), /docs (404), /developers (404)
+    and /developer (404). api.adaptigent.com, docs.adaptigent.com,
+    developer.adaptigent.com and support.adaptigent.com do not resolve in DNS.
+  - >-
+    Alternate-contract probes also missed: /?wsdl and /?singleWsdl return the
+    WordPress homepage (200 text/html — the query string is ignored, not a SOAP
+    contract), /asyncapi.yaml 404, /graphql 404. Adaptigent's product GENERATES
+    REST/SOAP contracts into customer environments; it publishes none of its own.
+maintainers:
+  - FN: Kin Lane
+    X-twitter: apievangelist
+    email: info@apievangelist.com
