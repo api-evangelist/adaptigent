@@ -35,7 +35,7 @@ tags:
   - API Gateway
   - Legacy Systems
   - Enterprise
-  - No-Code
+  - No Code
   - Middleware
 tags_raw:
   - Mainframe
@@ -64,7 +64,7 @@ apis:
       - Integration
       - REST API
       - SOAP
-      - No-Code
+      - No Code
     tags_raw:
       - Mainframe
       - Integration
