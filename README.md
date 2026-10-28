@@ -1,4 +1,4 @@
-# Adaptigent (adaptigent)
+# Adaptigent
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,78 +66,104 @@
 
 Adaptigent (formerly GT Software) is a technology company founded in 1982 that specializes in mainframe integration and API enablement solutions. Their flagship product, Adaptive Integration Fabric (formerly Ivory Suite), empowers enterprises to expose legacy mainframe systems as modern REST and SOAP APIs without writing any code. Using a patented no-code, drag-and-drop environment, the platform enables integration of IBM z/OS and z/VSE mainframe applications with modern distributed systems, supporting both inbound and outbound integration flows in real time. Adaptigent serves industries including finance, government, manufacturing, and healthcare, offering a usage-based subscription pricing model.
 
-**URL:** [https://www.adaptigent.com](https://www.adaptigent.com)
+**Areas:** Mainframe · Integration · API Gateway · Legacy Systems · Enterprise · No-Code · Middleware
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Adaptigent on APIs.io
 
-## Tags:
+Everything profiled for Adaptigent is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adaptigent/](https://apis.io/providers/adaptigent/)** — or go straight to one of the APIs or properties below.
 
- - Mainframe, Integration, API Gateway, Legacy Systems, Enterprise, No Code, Middleware
+### APIs (1)
 
-## Timestamps
+- [Adaptive Integration Fabric API](https://apis.io/apis/adaptigent/adaptive-integration-fabric/) — The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web…
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Adaptive Integration Fabric API
-The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabric Studio drag-and-drop interface, users design integration flows that become deployed as API endpoints through the Fabric Runtime. Supports both inbound API calls into the mainframe and outbound API calls from mainframe COBOL and PL/I programs to external REST or SOAP services. Available on Red Hat Marketplace.
+#### Security (1)
 
-**Human URL:** [https://www.adaptigent.com/products/core-systems-integration/](https://www.adaptigent.com/products/core-systems-integration/)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Adaptigent Domain Security](https://apis.io/security/adaptigent/adaptigent-domain-security/)
 
- - Mainframe, Integration, REST API, SOAP, No Code
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.adaptigent.com/products/core-systems-integration/)
-- [GettingStarted](https://www.adaptigent.com/project/api-enabling-your-mainframe-with-adaptigent/)
+- [Adaptigent Plans Pricing](https://apis.io/plans/adaptigent/adaptigent-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Adaptigent Rate Limits](https://apis.io/rate-limits/adaptigent/adaptigent-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Adaptigent Finops](https://apis.io/finops/adaptigent/adaptigent-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.adaptigent.com)
-- [Portal](https://www.adaptigent.com)
 - [Pricing](https://www.adaptigent.com/resources/pricing/)
-- [Partners](https://www.adaptigent.com/about/partners/)
+- [Support](https://gtsoftware2.zendesk.com/)
 - [Blog](https://www.adaptigent.com/blog/)
-- [Contact](https://www.adaptigent.com/contact/)
+- [Terms of service](https://www.adaptigent.com/terms-of-use/)
+- [Privacy policy](https://www.adaptigent.com/privacy-policy/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| No-Code API Development | Patented drag-and-drop visual environment enables non-programmers to create sophisticated REST and SOAP APIs from mainframe applications without writing any code. |
-| Inbound And Outbound Integration | Supports bidirectional integration flows — modern applications can call mainframe services via API, and COBOL/PL/I mainframe programs can make outbound calls to external REST or SOAP services. |
-| Real-Time Mainframe Data Access | Provides real-time access to legacy data sources and transaction systems, enabling modern applications to consume mainframe data instantly without batch processing. |
-| IBM z/OS And z/VSE Support | Natively supports IBM z/OS and z/VSE mainframe platforms, enabling REST API enablement for COBOL and PL/I programs on these systems. |
-| REST And SOAP API Generation | Automatically generates industry-standard REST and SOAP web service endpoints from mainframe subroutines and programs, with no additional MIPS usage. |
-| Usage-Based Subscription Pricing | Flexible pricing model based on actual resource consumption, allowing organizations to scale integration usage without fixed licensing fees. |
-| Red Hat Marketplace Availability | Available on Red Hat Marketplace, enabling enterprise customers to deploy and manage Adaptive Integration Fabric within their Red Hat OpenShift environments. |
+**Kin Score 24.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 31.6 |
 
-| Name | Description |
-|------|-------------|
-| Mainframe API Modernization | Enterprises with legacy IBM mainframe systems can expose core business logic and data as modern REST APIs, enabling mobile apps, web applications, and microservices to consume mainframe capabilities. |
-| Financial Core System Integration | Banks and financial institutions can connect core banking systems on the mainframe to fraud detection services, digital banking platforms, and fintech APIs in real time. |
-| Government Legacy System Modernization | Government agencies can modernize access to mission-critical legacy systems by exposing them as standard APIs without replacing or re-coding existing mainframe applications. |
-| Manufacturing Supply Chain Integration | Manufacturers can link inventory, transportation, and parts systems running on legacy platforms with modern ERP and supply chain management systems through API integration. |
-| Hybrid Cloud Mainframe Connectivity | Organizations adopting hybrid cloud strategies can bridge on-premises mainframe data with cloud-based applications and services using Adaptive Integration Fabric as the middleware layer. |
+**Agent readiness 2.5** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| IBM z/OS | Native integration with IBM z/OS mainframe operating system. |
-| IBM z/VSE | Native integration with IBM z/VSE mainframe operating system. |
-| Red Hat OpenShift | Available on Red Hat Marketplace for deployment in OpenShift environments. |
-| REST APIs | Consumes and produces standard REST APIs for integration with modern distributed systems. |
-| SOAP Web Services | Generates SOAP web service endpoints from mainframe programs for compatibility with enterprise service-oriented architecture. |
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adaptigent/](https://apis.io/providers/adaptigent/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adaptigent: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adaptigent/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
